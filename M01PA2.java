@@ -72,8 +72,9 @@ public class M01PA2
         return sum; //return the total
     }
 
-    
-    public static boolean prefixMatched(long number, int d) {
+    //checks to see if prefixes match 
+    public static boolean prefixMatched(long number, int d) 
+    {
         return getPrefix(number, getSize(d)) == d;
     }
 
