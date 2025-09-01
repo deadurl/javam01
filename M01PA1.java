@@ -1,4 +1,5 @@
-public class M01PA1{//programming assignment 1
+public class M01PA1
+{
     public static double footToMeter(double foot) //multiplies foot by value to get meter
     {
         return 0.305 * foot;
